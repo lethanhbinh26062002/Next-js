@@ -14,7 +14,7 @@ const ProductEdit = () => {
     const { id } = router.query
     const dataProduct = await real(id)
     console.log("Data real id", dataProduct.data);
-    console.log("Data client update", product);
+    console.log("Data user update", product);
     const data = await update(id, product);
   }
   return (

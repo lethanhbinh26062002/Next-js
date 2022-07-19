@@ -28,10 +28,10 @@ const ProductPage = () => {
             <div>
                 {data.map((item,index) => (
                     <div key={index}>
-                        <p>{item.name}</p>
-                        <button className="ml-5" onClick={() => removeItem(item.id)}>Delete</button>
+                        <span>{item.name}</span>
+                        <button className="ml-8" onClick={() => removeItem(item.id)}>Delete</button>
                         <Link href={`/products/edit/${item.id}`}>
-                            <button className="ml-5">Edit</button>
+                            <button className="ml-8">Edit</button>
                         </Link>
                     </div>
                 ))}

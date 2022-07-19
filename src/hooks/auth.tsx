@@ -29,23 +29,7 @@ export const useAuth = () => {
             }
         })
     };
-    // const signIn = (user) => {
-    //     const account = user;
-    //     mutate("/signin", async () => {
-    //         const { data } = await list("/users")
-    //         console.log('List data', data);
-    //         data.map(async (user) => {
-    //             if (user.email === account.email) {
-    //                 //check password
-    //                 const { data } = await signin(account);
-    //                 console.log("Data user", user);
-    //                 localStorage.setItem("user", JSON.stringify(user));
-    //                 console.log("Signin successfully");
-    //             }
-    //         });
-    //         return user
-    //     })
-    // }
+
     // // logout
     // const logOut = () => {
     //     const data = localStorage.getItem("User");

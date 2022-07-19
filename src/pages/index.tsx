@@ -10,8 +10,8 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Website bán mỹ phẩm</title>
-        <meta name="description" content="Thông tin website bán mỹ phẩm" />
+        <title>Website ...</title>
+        <meta name="description" content="Thông tin website ...." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
