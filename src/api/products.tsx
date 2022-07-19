@@ -9,8 +9,8 @@ export const getOne = (id: any) => {
 export const add = (product: any) => {
     return instance.post("/products", product);
 };
-export const editItem = (product: any) => {
-    return instance.put(`/products/edit/${product.id}`,product);
+export const updateItem = (id: any,product: any) => {
+    return instance.patch(`/products/${id}`,product);
 };
 export const removeItem = (id: any) => {
     return instance.delete(`/products/${id}`);

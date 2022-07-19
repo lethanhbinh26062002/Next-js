@@ -1,10 +1,10 @@
-import { add, getAll, getOne, removeItem } from "../api/products";
+import { add, getAll, getOne, removeItem, updateItem } from "../api/products";
 import useSWR from "swr";
 
 const useProducts = () => {
     const { data, error, mutate } = useSWR("/products");
     // real
-    const real = async (id) => {
+    const real = async (id: any) => {
         const product = await getOne(id);
         return product
     };
@@ -16,9 +16,16 @@ const useProducts = () => {
     // update
     const update = async (id,product) => {
         const { data: productList } = await getAll();   
-        const productData = await productList.find((item) => item.id == id);
-        console.log("Data",productData);
-        const productUpdate = { id, product }   
+        const productData = await productList.find((item) => {
+            if((item.id === id)){
+                item = product
+                console.log("Data", product ); 
+            }
+        })
+        await updateItem(id,product)
+        return product
+        // const newProducts =data.map((item) => item.id === data.id ? product : item)
+        // return newProducts
     }
     // delete
     const remove = async (id) => {

@@ -10,12 +10,13 @@ const ProductEdit = () => {
   const router = useRouter()
   const { update, real } = useProducts()
   const { id } = router.query
+  console.log(id);
   const dataProduct = real(id)
   console.log("Data real", dataProduct);
   const { register, handleSubmit, formState: { errors } } = useForm<Inputs>();
   const onSumbit: SubmitHandler<Inputs> = async (product) => {
-    const data = await update(id, product);
     console.log("Data update", product);
+    const data = await update(id, product);
   }
   return (
     <form onSubmit={handleSubmit(onSumbit)} className="max-w-lg">

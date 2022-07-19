@@ -26,9 +26,9 @@ const ProductPage = () => {
             </div>
             <br />
             <div>
-                {data.map((item) => (
-                    <div key={item.id}>
-                        <Link href={`/products/${item.id}`}>{item.name}</Link>
+                {data.map((item,index) => (
+                    <div key={index}>
+                        <p>{item.name}</p>
                         <button className="ml-5" onClick={() => removeItem(item.id)}>Delete</button>
                         <Link href={`/products/edit/${item.id}`}>
                             <button className="ml-5">Edit</button>
