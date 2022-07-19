@@ -1,0 +1,103 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Product A"
+    },
+    {
+      "id": "2",
+      "name": "Product B"
+    },
+    {
+      "name": "Product CD",
+      "id": "qsyEeDz"
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$T055EOSsmac.fkZ1Y6k2leuKNyHy8df5dWDSrmeI2dqI7A/frx0Ze",
+      "id": 1
+    },
+    {
+      "email": "client1@gmail.com",
+      "password": "$2a$10$W91z4SSHI5KwibFQ4tBrn.QViqrH3o2KSHx6FFShID2qibTJXEEHe",
+      "id": 2
+    },
+    {
+      "email": "client2@gmail.com",
+      "password": "$2a$10$S6LABCcoog5bXvedoJQ8guhyJmXuG5DzZjmFsqP82s3CNYKpHxida",
+      "id": 3
+    },
+    {
+      "email": "client3@gmail.com",
+      "password": "$2a$10$kvAvt2k.PVaIAeWUTbdKdO47DkyrudCVhSYZ93mhstDJ7s/uXdmXC",
+      "id": 4
+    },
+    {
+      "email": "client4@gmail.com",
+      "password": "$2a$10$hju2QgeJDyDb5OWU95MEC.s0qfV7YB8E0VtN.DgcfVRT2l/bJDbKi",
+      "id": 5
+    },
+    {
+      "email": "client5@gmail.com",
+      "password": "$2a$10$JKMFa8WMClLxWZfxfkWuG.Oz8.kloYwzvXfl4lc2vFh7.Wy2GsgvO",
+      "name": "client5",
+      "id": 6
+    },
+    {
+      "email": "binhlt@gmail.com",
+      "password": "$2a$10$FNBTikV3tNkjNPGuscfcoOQPwo3lNE19n6wRfu0QAF/BTni.pifxK",
+      "name": "Binh",
+      "id": 7
+    },
+    {
+      "email": "dungtm@gmail.com",
+      "password": "$2a$10$j0MgVU1BLUuUqU9K7oXOtu9rLP/45H0k0blQTKHHuMzA4ZoIbNxma",
+      "name": "Dung",
+      "id": 8
+    },
+    {
+      "email": "aaaaa@gmail.com",
+      "password": "$2a$10$eJOha2h60rrTJVNw2xADFuyPMyWwpmOvARUTLAd7yL4GT1D0AWmy.",
+      "name": "aaaaa",
+      "id": 9
+    },
+    {
+      "email": "aaa@gmail.com",
+      "password": "$2a$10$NI2HbO/hb3r/UisdpnmT9uiSYY9YFSIGIr6m0lM0MOftUiJ0lSYqC",
+      "name": "aaa",
+      "id": 10
+    },
+    {
+      "email": "bbb@gmail.com",
+      "password": "$2a$10$PnhYcaOtuWTFLqPnPn19KeC3KHbLj6NKvqxEcbVxmG/g5I/Cv.pi6",
+      "name": "bbb",
+      "id": 11
+    },
+    {
+      "email": "ccc@gmail.com",
+      "password": "$2a$10$r1rzWS9w1Q3uxWYckcdMferu8frJBFScq12rZWgNdzMcDolNBWjzi",
+      "name": "ccc",
+      "id": 12
+    },
+    {
+      "email": "ddd@gmail.com",
+      "password": "$2a$10$STCqSKSBkGI7sDPOh7.4IeVZBuyJgJCc/zniRST0o9BuozHZ6rzyu",
+      "name": "ddd",
+      "id": 13
+    },
+    {
+      "email": "eee@gmail.com",
+      "password": "$2a$10$kI7YPeLos/6SfJZOxBLoAeXKrQ3dPrmxGgbw/l1kw.45pUkhci16C",
+      "name": "eee",
+      "id": 14
+    },
+    {
+      "email": "ggg@gmail.com",
+      "password": "$2a$10$ElhbcGf.VMALxPFL5cao8eZGtX98BIToiuYMBKZnTUiIYokXjU1RS",
+      "name": "ggg",
+      "id": 15
+    }
+  ]
+}
