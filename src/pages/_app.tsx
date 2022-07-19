@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
     const LayoutWrapper = Component.Layout ?? Layout;
     return (
         <LayoutWrapper>
-            <SWRConfig value={{ fetcher: async (url) => await instance.get(url) }}>
+            <SWRConfig value={{ refreshInterval: 1000, fetcher: async (url) => await instance.get(url) }}>
                 <Component {...pageProps} />
             </SWRConfig>
         </LayoutWrapper>

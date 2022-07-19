@@ -5,7 +5,7 @@ const useProducts = () => {
     const { data, error, mutate } = useSWR("/products");
     // real
     const real = async (id: any) => {
-        const product = await getOne(id);
+        const product = await getOne(id);       
         return product
     };
     // create
@@ -19,7 +19,6 @@ const useProducts = () => {
         const productData = await productList.find((item) => {
             if((item.id === id)){
                 item = product
-                console.log("Data", product ); 
             }
         })
         await updateItem(id,product)
