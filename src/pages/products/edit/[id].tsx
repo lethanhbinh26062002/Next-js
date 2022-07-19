@@ -9,9 +9,11 @@ type Inputs = {
 const ProductEdit = () => {
   const router = useRouter()
   const { update, real } = useProducts()
+  const { id } = router.query
+  const dataProduct = real(id)
+  console.log("Data real", dataProduct);
   const { register, handleSubmit, formState: { errors } } = useForm<Inputs>();
   const onSumbit: SubmitHandler<Inputs> = async (product) => {
-    const { id } = router.query
     const data = await update(id, product);
     console.log("Data update", product);
   }
