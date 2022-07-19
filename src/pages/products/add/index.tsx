@@ -10,8 +10,8 @@ const ProductAdd = () => {
     const { create } = useProducts()
     const { register, handleSubmit, formState: { errors } } = useForm<Inputs>();
     const onSumbit: SubmitHandler<Inputs> = async (product) => {
-        const data = await add(product);
-        console.log("Data create", data);
+        const data = await create(product);
+        console.log("Data create", product);
     }
     return (
         <form onSubmit={handleSubmit(onSumbit)} className="max-w-lg">

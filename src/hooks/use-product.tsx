@@ -11,7 +11,7 @@ const useProducts = () => {
     // create
     const create = async (item) => {
         const product = await add(item);
-        mutate([...data, product]);
+        return{...data, product}
     };
     // update
     const update = async (id,product) => {
